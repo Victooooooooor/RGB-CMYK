@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB e CMYK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Quadrados"> 
+        <h1>RGB</h1>
+        <div class="Conteudo">
+            <p>
+                O modelo RGB é um sistema aditivo amplamente utilizado em telas que emitem luz, como monitores e televisores. Ele se baseia na combinação de três cores primárias — vermelho, verde e azul — cujas intensidades variáveis se sobrepõem para formar uma ampla gama de cores.
+            </p>
+            <p>
+                Esse modelo é chamado de aditivo porque funciona pela adição de luz para criar novas tonalidades.
+            </p>
+            <img class="RGB" src="imagens/RGB.png">
+            <p>
+                - Quanto mais luz for adicionada, mais brilhante será.<br>
+                - Quanto menos luz for adicionada, mais escuro será a cor.
+            </p>
+            <p>
+                A escala RGB para adicionar mais luz, vai até 255 e o mínimo chega em 0.
+            </p>
+            
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome da cor</th>
+                            <th>R</th>
+                            <th>G</th>
+                            <th>B</th>
+                            <th>Código</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background-color: black; color: #fff;">
+                            <td>Preto</td><td>0</td><td>0</td><td>0</td><td>rgb(0, 0, 0)</td>
+                        </tr>
+                        <tr style="background-color: #fff;">
+                            <td>Branco</td><td>255</td><td>255</td><td>255</td><td>rgb(255, 255, 255)</td>
+                        </tr>
+                        <tr style="background-color: rgb(255, 0, 0);">
+                            <td>Vermelho</td><td>255</td><td>0</td><td>0</td><td>rgb(255, 0, 0)</td>
+                        </tr>
+                        <tr style="background-color: rgb(0, 255, 0);">
+                            <td>Verde</td><td>0</td><td>255</td><td>0</td><td>rgb(0, 255, 0)</td>
+                        </tr>
+                        <tr style="background-color: rgb(0, 0, 255); color: #fff;">
+                            <td>Azul</td><td>0</td><td>0</td><td>255</td><td>rgb(0, 0, 255)</td>
+                        </tr>
+                        <tr style="background-color: rgb(255, 255, 0);">
+                            <td>Amarelo</td><td>255</td><td>255</td><td>0</td><td>rgb(255, 255, 0)</td>
+                        </tr>
+                        <tr style="background-color: rgb(0, 255, 255);">
+                            <td>Ciano</td><td>0</td><td>255</td><td>255</td><td>rgb(0, 255, 255)</td>
+                        </tr>
+                        <tr style="background-color: rgb(135, 206, 250);">
+                            <td>Azul Claro</td><td>135</td><td>206</td><td>250</td><td>rgb(135, 206, 250)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p>
+                Esse código de cores segue a ordem da sigla RGB, onde o primeiro número representa o vermelho, o segundo o verde e o terceiro o azul. Ajustando esses valores, é possível criar milhares de combinações de cores.
+            </p>
+        </div>
+    </div>
+
+    <div class="Quadrados" style="height: 600px;">
+        <h1>Pixel no RGB</h1>
+        <div class="Conteudo">
+            <p>
+                O pixel é a menor unidade de uma imagem digital, presente em monitores, celulares e outros dispositivos. Cada pixel é composto por três subpixels — vermelho, verde e azul — cuja intensidade varia para determinar a cor final exibida.
+            </p>
+            <img class="Pixel-imagem" src="imagens/pixel-img.PNG">
+            <p>
+                Um pixel basicamente armazena três subpixels e esses três subpixels determinam a cor de um pixel de acordo com a intensidade da luz de cada subpixel.
+            </p>
+        </div>
+    </div>
+
+    <div class="Quadrados" style="height: 750px;">
+        <h1>CMYK</h1>
+        <div class="Conteudo">
+            <p>
+                CMYK é um modelo de cores subtrativo, amplamente utilizado em impressoras ou em máquinas que precisam de tintas, que não possuem pixel.
+            </p>
+            <p>
+                Ao contrário do RGB, que adiciona luz para formar cores, o CMYK funciona pela mistura de pigmentos. Esse processo é chamado de subtrativo porque a sobreposição das cores reduz a quantidade de luz refletida, bloqueando outras tonalidades.
+            </p>
+            <img class="CMYK-imagem" src="imagens/CMYK.png">
+            <p>
+                CMYK é a sigla para Cyan (Ciano), Magenta, Yellow (Amarelo) e K (Key ou Preto).
+            </p>
+            <p>
+                A letra "K" representa "Key" porque o preto é considerado a cor-chave no modelo de impressão. Ele é fundamental para garantir contrastes mais nítidos e detalhes mais precisos. Embora a mistura de magenta, amarelo e ciano teoricamente produza a cor preta, na prática resulta em um tom marrom escuro. Além de não gerar o preto ideal, essa mistura consome mais tinta. A adição da cor preta, portanto, reduz os custos e assegura a cor preta verdadeira da tinta.            </p>
+        </div>
+    </div>
+
+    <div class="Quadrados" style="height: 700px; margin-bottom: 100px;">
+        <h1>RGB ou CMYK</h1>
+        <div class="Conteudo">
+            <p>
+                A escolha entre RGB e CMYK depende do seu objetivo, pois ambos produzem cores, mas de maneiras diferentes. O RGB forma cores combinando luz nos subpixels, enquanto o CMYK as cria misturando pigmentos de tinta.
+            </p>
+            <p>
+                RGB é indicado para telas digitais, como monitores, celulares, televisões.
+            </p>
+            <p>
+                CMYK é utilizado em impressoras, máquinas que requerem tintas, como adesivos, cartazes.
+            </p>
+            <img class="RGBxCMYK-imagem" src="imagens/RGBxCMYK.jpg">
+        </div>
+    </div>
+</body>
+</html>
